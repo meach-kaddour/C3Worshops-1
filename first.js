@@ -1,3 +1,5 @@
+// Enoncé 1
+
 function addFavouriteBook(bookName) {
     var FavouriteBooks = ['Samarcande', 'fou de Roi', '1984'];
     console.log(FavouriteBooks);
@@ -7,13 +9,17 @@ function addFavouriteBook(bookName) {
         console.log(FavouriteBooks);
     }
 
+
     function printBooks() {
         var num = FavouriteBooks.length;
         console.log('livres' + ' ' + 'est favoris : ' + num);
         for (let livre of FavouriteBooks)
             console.log(livre);
+        console.log(typeof num);
+
     }
     printBooks();
 }
 
 addFavouriteBook();
+// Enoncé 2
