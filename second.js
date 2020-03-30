@@ -2,9 +2,14 @@ class Bookshelf {
     constructor() {
         this.favoriteBooks = [];
     }
-
-    // TODO: Définir la méthode `addFavoriteBook(..)`
-    // et `printFavoriteBooks()`
+    addFavoriteBook(bookName) {
+        return good;
+    }
+    printFavoriteBooks() {
+            return good;
+        }
+        // TODO: Définir la méthode `addFavoriteBook(..)`
+        // et `printFavoriteBooks()`
 }
 
 function addFavoriteBook(bookName) {
